@@ -74,6 +74,19 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* New styles for participant list */
+.participant-list {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  list-style-type: none;
+}
+
+.participant-list li {
+  margin-bottom: 5px;
+  color: #333;
+}
+
 .form-group {
   margin-bottom: 15px;
 }

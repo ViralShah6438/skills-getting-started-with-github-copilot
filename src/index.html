@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity Tracker</title>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Activity Tracker</h1>
+  </header>
+  <main>
+    <section>
+      <h3>Activities</h3>
+      <div class="activity-card">
+        <h4>Activity Title</h4>
+        <p>Activity Description</p>
+        <!-- New participant list -->
+        <ul class="participant-list">
+          <!-- Participants will be dynamically inserted here -->
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h3>Add New Activity</h3>
+      <form id="activity-form">
+        <div class="form-group">
+          <label for="activity-title">Title</label>
+          <input type="text" id="activity-title" name="title" required>
+        </div>
+        <div class="form-group">
+          <label for="activity-description">Description</label>
+          <input type="text" id="activity-description" name="description" required>
+        </div>
+        <button type="submit">Add Activity</button>
+      </form>
+      <div id="message" class="message hidden"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Activity Tracker. All rights reserved.</p>
+  </footer>
+  <script src="static/scripts.js"></script>
+</body>
+</html>
